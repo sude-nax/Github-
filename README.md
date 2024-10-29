@@ -40,6 +40,30 @@ Pull Request Oluşturma:
 Eğer yaptığınız değişikliklerin orijinal projeye dahil edilmesini istiyorsanız, orijinal depoya bir "Pull Request" (PR) gönderirsiniz.
 PR, projenin sahibi veya diğer katkı yapan kişiler tarafından incelenir. Değişikliklerin kabul edilip edilmeyeceğine karar verilir. Bir örnek vermek gerekirse: Diyelim ki bir JavaScript kütüphanesi geliştiren bir projeye katkıda bulunmak istiyorsunuz. Projeyi fork edersiniz, yerel bilgisayarınıza klonlarsınız ve yeni bir özellik ekleyip test edersiniz. Sonra bu değişiklikleri GitHub’a gönderir ve orijinal projeye PR oluşturursunuz. Proje yöneticisi değişikliklerinizi inceler ve uygun görürse, bunları orijinal projeye ekler.
 
+*Cloning Repository Nedir?
+Cloning repository (depo klonlama), bir GitHub deposunun tam bir kopyasını yerel bilgisayarımıza indirme işlemidir. Bu işlem, geliştiricilerin projeler üzerinde çalışabilmesi ve değişiklikler yapabilmesi için önemlidir.Klonlama, geliştiricilerin projeleri yerel ortamlarında çalışarak, geliştirme yapabilmelerini sağlar. Bu, değişikliklerin daha hızlı ve verimli bir şekilde yapılmasına yardımcı olur.
+Klonlama:
+Github'da klonlamak istediğiniz depoyu seçin.Depo sayfasına gidin.
+Sağ üst köşede "Code" butonuna tıklayın.HTTPS veya SSH bağlantısını kopyalayın.
+Bilgisayarınızda terminal (Linux/macOS) veya komut istemcisini (Windows) açın.
+Klonlama Komutu:
+Aşağıdaki komutu kullanarak depoyu yerel bilgisayarınıza klonlayın:
+git clone [Klonlama Bağlantısı]
+Örneğin:  git clone https://github.com/kullaniciadi/projeadi.git
+Klonlanan Depo Üzerinde Çalışma:
+Klonlama işlemi tamamlandıktan sonra, klonladığınız proje dizinine gidin:
+cd projeadi
+Burada, projeyi inceleyebilir, düzenlemeler yapabilir ve geliştirmeler gerçekleştirebiliriz.
+Bir örnek verelim;diyelim ki bir Python projesi geliştiren bir açık kaynak projesine katkıda bulunmak istiyorsunuz. Öncelikle projeyi Github üzerinden klonlarsınız. Yerel bilgisayarınıza indirdikten sonra, projeyi çalıştırır, yeni bir özellik ekler veya hataları düzeltirsiniz. Daha sonra değişikliklerinizi yerel repoda kaydeder ve isterseniz orijinal projeye geri göndermek için bir pull request oluşturabilirsiniz.
+
+
+
+
+
+
+
+
+
 
 
 
