@@ -8,5 +8,10 @@ Git Commands
 •Git Init (initializing repositories): Git init komutu bilgisayarda oluşturmuş olduğumuz bir klasörün Git'e tanımlanması için kullanılır. Kullanımı: git init [repository name]
 •Git Add (adding changes to staging): Projemizi ya da belirlediğimiz bir dosyayı çalışma dizinine eklemek amacıyla kullanılır. Kullanımı: git add [file]  = bir tane ekleme  
 git add .  = toplu ekleme işlemi
-•Git Commit:
+•Git Commit (commiting changes): Commit ‘in kelime anlamı işaretlemedir. Git‘e eklediğimiz dosyaları kalıcı olarak veri tabanında işaretlemenizi sağlar. Bu komut ile hazırlama alanına aldığımız değişiklikleri yerel depoya yüklemek için kullanılır. Değişiklikleri yüklerken commit’e mesaj eklemek yararımıza olacaktır. Bu sayede üzerinden belli bir zaman geçse bile yaptığımız değişiklikleri anlamamıza ve işlemlerinizi hızlandırmamıza yardımcı olur. 
+Kullanımı: git commit -m "[type in the commit message]"
+•Git Reset: Buradaki reset işlemi ile bilgilerimiz silinmeden ve yeni bir commit üretmeden değişiklikleri geri alabiliriz. Dosya aşamasını kaldırır fakat aynı zamanda içeriğini korur.
+Kullanımı: git reset [file] git reset [commit]  =belirtilen committen sonrakileri geri alır ve değişiklikleri yerel olarak korur. 
+git reset -hard [commit]  =local tüm commitleri silerek geri alma işlemi yapar bu yüzden dikkatli kullanmak gerekir.
+
 
