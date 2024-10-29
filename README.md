@@ -13,5 +13,7 @@ Kullanımı: git commit -m "[type in the commit message]"
 •Git Reset: Buradaki reset işlemi ile bilgilerimiz silinmeden ve yeni bir commit üretmeden değişiklikleri geri alabiliriz. Dosya aşamasını kaldırır fakat aynı zamanda içeriğini korur.
 Kullanımı: git reset [file] git reset [commit]  =belirtilen committen sonrakileri geri alır ve değişiklikleri yerel olarak korur. 
 git reset -hard [commit]  =local tüm commitleri silerek geri alma işlemi yapar bu yüzden dikkatli kullanmak gerekir.
+ •.gitignore: Gitignore dosyası sayesinde biz istemediğimiz dosyaları iptal edebiliyoruz. 
+ Kullanımı: 
 
 
