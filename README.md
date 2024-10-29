@@ -61,8 +61,23 @@ Pull request, bir kullanıcının yaptığı değişikliklerin orijinal projeye 
 GitHub Üzerinde Pull Request Oluşturma:
 GitHub’a gidin ve fork ettiğiniz veya çalıştığınız projeye gidin.
 Sayfanın üst kısmında “Compare & pull request” veya “New pull request” butonuna tıklayın.
-Hangi branch’inizi karşılaştırmak istediğinizi seçin. Genellikle bu, değişikliklerinizi içeren branch ile orijinal depodaki ana branch (genellikle main veya master) arasında bir karşılaştırmadır.Açılan sayfada, pull request’iniz için bir başlık ve açıklama girin. Açıklama kısmında, yaptığınız değişikliklerin neden önemli olduğunu, hangi sorunları çözdüğünü veya hangi yeni özellikleri eklediğinizi belirtin.
+Hangi branch’inizi karşılaştırmak istediğinizi seçin. Genellikle bu, değişikliklerinizi içeren branch ile orijinal depodaki ana branch (genellikle main veya master) arasında bir karşılaştırmadır.Açılan sayfada, pull? request’iniz için bir başlık ve açıklama girin. Açıklama kısmında, yaptığınız değişikliklerin neden önemli olduğunu, hangi sorunları çözdüğünü veya hangi yeni özellikleri eklediğinizi belirtin.
 Gerekirse etiketler (labels) ekleyebilir ve ilgili kişileri (assignees) atayabilirsiniz.Tüm bilgileri doldurduktan sonra “Create pull request” butonuna tıklayarak pull request’inizi gönderin.
+
+*Pushing Changes Nedir?
+GitHub’da pushing changes ifadesi, yerel (local) depodaki değişikliklerin GitHub gibi uzak (remote) bir depoya gönderilmesi anlamına gelir. Bu işlem, projede yapılan güncellemeleri herkesin erişebileceği şekilde depolamak ve başkalarıyla paylaşmak için kullanılır.
+Push işlemi:
+Değişiklik Yapma: Projende kod ya da dosya değişiklikleri yaparsın.
+Staging: Yaptığın değişiklikleri bir sonraki adıma hazırlamak için "git add" komutuyla staging alanına eklemen gerekir.
+Commit: Yaptığın değişiklikleri bir mesajla (commit message) kaydedersin. Bu işlem, değişiklikleri yerel depoda kalıcı hale getirir.
+Push: Son olarak, "git push" komutunu kullanarak, bu commit’leri uzak depoya gönderirsin.
+
+*Pulling Changes Nedir?
+GitHub’da pulling changes ifadesi, uzak bir depoda (örneğin, GitHub’da) yapılmış olan değişiklikleri yerel (local) depoya almak anlamına gelir. Böylece, projeyi güncel tutmak ve başkalarının yaptığı değişikliklere erişmek mümkün olur.
+Pull nasıl yapılır: git pull origin branch_adı
+origin: Uzak deponun adı (genellikle origin olarak adlandırılır).
+branch_adı: Çalıştığın dalın (branch) adı, genellikle main veya master olur.
+
 
 
 
