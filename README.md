@@ -56,6 +56,15 @@ cd projeadi
 Burada, projeyi inceleyebilir, düzenlemeler yapabilir ve geliştirmeler gerçekleştirebiliriz.
 Bir örnek verelim;diyelim ki bir Python projesi geliştiren bir açık kaynak projesine katkıda bulunmak istiyorsunuz. Öncelikle projeyi Github üzerinden klonlarsınız. Yerel bilgisayarınıza indirdikten sonra, projeyi çalıştırır, yeni bir özellik ekler veya hataları düzeltirsiniz. Daha sonra değişikliklerinizi yerel repoda kaydeder ve isterseniz orijinal projeye geri göndermek için bir pull request oluşturabilirsiniz.
 
+*Pull Request Nedir?
+Pull request, bir kullanıcının yaptığı değişikliklerin orijinal projeye entegre edilmesi için gönderdiği bir talep veya öneridir. Kullanıcı, kendi fork’ladığı veya üzerinde çalıştığı bir depodaki değişiklikleri, orijinal depoya eklenmesi için teklif eder.
+GitHub Üzerinde Pull Request Oluşturma:
+GitHub’a gidin ve fork ettiğiniz veya çalıştığınız projeye gidin.
+Sayfanın üst kısmında “Compare & pull request” veya “New pull request” butonuna tıklayın.
+Hangi branch’inizi karşılaştırmak istediğinizi seçin. Genellikle bu, değişikliklerinizi içeren branch ile orijinal depodaki ana branch (genellikle main veya master) arasında bir karşılaştırmadır.Açılan sayfada, pull request’iniz için bir başlık ve açıklama girin. Açıklama kısmında, yaptığınız değişikliklerin neden önemli olduğunu, hangi sorunları çözdüğünü veya hangi yeni özellikleri eklediğinizi belirtin.
+Gerekirse etiketler (labels) ekleyebilir ve ilgili kişileri (assignees) atayabilirsiniz.Tüm bilgileri doldurduktan sonra “Create pull request” butonuna tıklayarak pull request’inizi gönderin.
+
+
 
 
 
