@@ -1,0 +1,49 @@
+person1 = {
+    "name" : "Sude Naz",
+    "surname" : "Usta",
+    "number" : 1030310908,
+    "department" : "endustrial engineering",
+    "class" : "preparotory"
+}
+person2 = {
+    "name" : "Ali",
+    "surname" : "Yıldırım",
+    "number" : 1030511080,
+    "department" : "computer engineering",
+    "class" : "preparotory"
+}
+person3 = {
+    "name" : "Emir Mustafa",
+    "surname" : "Şahin",
+    "number" : 1030310907,
+    "department" : "electric electronic engineering",
+    "class" : 2
+}
+person4 = {
+    "name" : "Sena",
+    "surname" : "Armutlukuyu",
+    "number" : 1030511202,
+    "department" : "endustrial engineering",
+    "class" : 4
+}
+person5 = {
+    "name" : "Taha",
+    "surname" : "Baykara",
+    "number" : 1030514753,
+    "department" : "electric electronic engineering",
+    "class" : 3
+}
+people = [person1, person2, person3, person4, person5]
+oddnumber = []
+evennumber = []
+for y in people: 
+    if y["number"] % 2 == 0:
+        evennumber.append(y)
+    else: 
+        oddnumber.append(y)
+print("Ending odd number:", oddnumber)
+print("\nEnding even number:", evennumber)
+example = any(x["class"] == 4 for x in oddnumber)
+example2 = any(x["class"] == 4 for x in evennumber)
+print("\nAre there any 4th class for oddnumber?", example)
+print("\nAre there any 4th class for evennumber?", example2)
